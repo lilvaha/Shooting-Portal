@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*голова*/
+
+.logotip {
+    background-color: rgba(11, 45, 11, 0.766);
+    height: 5vh;
+}
+
+.logotip p {
+    margin-left: 10%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 4vh;
+    font-style: italic;
+}
+
+.logotip h1 {
+    font-weight: 400;
+    color: #fff;
+    font-size: 2vh;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+/*Меню входа*/
+
+.wrapper a {
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 89.99vh;
+    background-image: url('fon1.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0, .01);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color:#fff;
+    border-radius: 20px;
+    padding: 20px 10px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.input-box input {
+    width: 80%;
+    height: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 0px 5px 20px;
+    position: absolute;
+    left: 4vh;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 20px 25px 20px 35px;
+}
+
+.remember label input {
+    accent-color: #fff;
+    margin: 0px 5px;
+}
+
+.wrapper .btn {
+    width: 50%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .01);
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    margin-left: 25%;
+}
+
+
+.wrapper .register-link {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        width: 320px;
+        background: transparent;
+        border: 2px solid rgb(0, 0, 0, .01);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        color:#fff;
+        border-radius: 20px;
+        padding: 20px 10px;
+    }
+}
+
+/*Выбор тира для работников*/
+
+.shooting {
+    width: 80%;
+    height: 75vh;
+    margin: 0 auto;
+    background: green;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.first {
+    width: 50%;
+    height: 15%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    padding: 5vh 2vh;
+
+}
+
+.second {
+    width: 50%;
+    height: 15%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.third {
+    width: 50%;
+    height: 15%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.fourth {
+    width: 50%;
+    height: 15%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+.fifth {
+    width: 50%;
+    height: 15%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
